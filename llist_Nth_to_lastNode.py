@@ -40,7 +40,7 @@ class LinkedList:
 
 		# Loop while end of linked list is not reached
 		while current:
-			if count == index:
+			if  count == index:
 				return current.data
 			count += 1
 			current = current.next
